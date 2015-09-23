@@ -29,9 +29,7 @@ mysql> GRANT ALL PRIVILEGES ON \*.\* TO 'root2'@'localhost' WITH GRANT OPTION;
 
 3. Try to run the tool again. 
 
-2) I can't run the tool under Kali 2. 
-   comment out the from the source code InfernalWireless.py following from wxPython.wx import *
-   
+
    @lightos thank you for mentioning fix. 
 
 Release Notes: 
@@ -91,6 +89,7 @@ BUG FIXES:
 - DB implementation via config file
 - Improved Catch and error
 - Check for requirements
+- Works with Kali 2
 
 Coming Soon: 
 - Parsing t-shark log files for gathering creds and more
